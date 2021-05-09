@@ -1,4 +1,6 @@
-account_sid='AC34b8eb44127ee67e1846100caeff7304'
-auth_token='d2952c2cc552bb02b4e4bf94e4a12c40'
-my_cell='+16479655067'
-my_twilio='+12897993937'
+from os import environ
+
+account_sid= environ['ACCOUNT_SID']
+auth_token= environ['AUTH_TOKEN']
+my_cell= environ['MY_CELL']
+my_twilio= environ['MY_TWILIO']
