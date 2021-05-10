@@ -25,7 +25,7 @@ while True:
     #get change in price 
     percent_change = 100*(updated_price - price) / price
      
-     #send sms message 
+     #send sms messa
     if (percent_change >= 10):
         message = "GME has changed by " + percent_change + "%"
         msg_twilio = client.messages.create(
